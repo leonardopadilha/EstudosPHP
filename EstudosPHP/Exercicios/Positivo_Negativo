@@ -1,0 +1,15 @@
+$positivo = 0;
+$negativo = 0;
+
+
+$numero = [2, 4, 6, 7, -41.9, -25, -10, -11];
+
+foreach($numero as $valor){
+	if($valor > 0){
+		$positivo ++;
+    
+	}else{
+		$negativo ++;
+	}
+
+}echo "Total: {$positivo} números positivos e {$negativo} negativos";
