@@ -1,0 +1,14 @@
+<?php
+
+
+$aux = 0;
+
+$numbers = [1, 2, 3, 89, -5, 6, 97];
+
+foreach($numbers as $number){
+	if($aux < $number){
+		$aux = $number;
+	}
+}
+
+echo $aux;
