@@ -1,0 +1,19 @@
+<?php
+
+
+$maior = 0;
+$menor = 0;
+
+$pagantes = [15, 18, 20, 16];
+
+foreach($pagantes as $pagante){
+	if($pagante >= 18){
+		$maior ++;
+	}else {
+		$menor ++;
+	}
+}
+
+echo "Maiores: " . $maior;
+echo "<br/>";
+echo "Menores: " . $menor;
