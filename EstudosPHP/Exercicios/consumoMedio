@@ -1,0 +1,8 @@
+<?php
+
+$distancia = 500;
+$combustivel = 35;
+
+$consumoMedio = $distancia / $combustivel;
+
+echo round($consumoMedio,3) . " km/l";
