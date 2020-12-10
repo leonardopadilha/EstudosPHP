@@ -1,0 +1,13 @@
+/*  (Palíndromos) Um palíndromo é uma sequência de caracteres que é lida da esquerda para a direita ou da direita para a esquerda. Por exemplo, as palavras
+seguintes, é um palíndromo: arara, ana. Escreva um aplicativo que lê uma palavra de cinco dígitos e determina se ele é ou não um palíndromo. */
+
+$palindromo = ["arara"];
+$IsPalindromo = array_reverse($palindromo);
+
+foreach($palindromo as $palindromos){
+        if($palindromo == $IsPalindromo){
+            echo "É Palíndromo";
+        }else {
+            echo "Não é palíndromo";
+        }
+}
