@@ -9,9 +9,9 @@ Saída
 Imprima todos os valores ímpares de 1 até X, inclusive X, se for o caso.
 */
 
-$num = 8;
+$num = 25;
 
-for($i = 0; $i < $num; $i++){
+for($i = $num; $i >= 0; $i--){
 	if ($i %2 != 0){
 		echo $i . "<br/>";
 	}
